@@ -11,10 +11,13 @@ class Palaindrome{
             if(str.charAt(i)==str.charAt(n-1-i)){
                 return true;
             }
+           
 
         }
-       
+
         return false;
+    
+       
     }
     
     public static void main(String[] args) {

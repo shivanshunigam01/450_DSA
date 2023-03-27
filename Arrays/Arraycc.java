@@ -6,7 +6,7 @@ public class Arraycc {
     
         int array1[]={2,4,5,6,10};
         int key=10;
-        for(int i=0;i<array1.length;i++){
+        for(int i=0;i<=4;i++){
             if(array1[i]==key){
                 System.out.println("Element is found!");
             }
