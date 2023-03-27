@@ -8,6 +8,7 @@ public static float minimumPath(String path) {
     for(int i=0;i<path.length();i++){
         char dir=path.charAt(i);
 
+
         if(dir=='S'){
             y--;
         }
@@ -34,6 +35,7 @@ public static float minimumPath(String path) {
     public static void main(String[] args) {
         String path="WNEENESENNN";
         System.out.println(minimumPath(path));
+        System.out.println("This is the shortest path:");
 
     }
 }
