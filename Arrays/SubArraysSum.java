@@ -9,6 +9,7 @@ int max=Integer.MIN_VALUE;
                 for(int j=i;j<number.length;j++){
                     int end=j;
                     for(int k=start;k<=end;k++){
+                        number[k]+=number[start];
                         System.out.print(number[k]+"");
                     
                     }
