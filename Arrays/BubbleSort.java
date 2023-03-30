@@ -8,14 +8,14 @@ public class BubbleSort {
                 if(array[j]>array[j+1]){
                     int temp=array[j];
                     array[j]=array[j+1];
-                    array[j]=temp;
+                    array[j+1]=temp;
                 }
             }
 
         }
 
          for(int i=0;i<array.length;i++){
-                System.out.println(array[i]);
+                System.out.print(array[i]);
             }
         }
     
