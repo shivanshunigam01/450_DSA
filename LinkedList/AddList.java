@@ -16,9 +16,11 @@ public class AddList {
 
     public static Node head;
     public static Node tail;
+    public static int size;
 
     public void addFirst(int data) {
         Node newNode = new Node(data);
+        size++;
         if (head == null) {
             head = tail = newNode;
             return;
@@ -29,6 +31,7 @@ public class AddList {
 
     public void addLast(int data) {
         Node newNode = new Node(data);
+        size++;
         if (head == null) {
             head = tail = newNode;
         }
@@ -52,6 +55,7 @@ public class AddList {
 
     public void addmiddle(int data, int idx){
         Node newNode = new Node(data);
+        size++;
         Node temp=head;
         int i=0;
         while(i<idx-1){
@@ -76,6 +80,8 @@ public class AddList {
         //ll.printList()
         ll.addmiddle(9, 2);
         ll.printList();
+
+        System.out.println(ll.size);
 
 
 
