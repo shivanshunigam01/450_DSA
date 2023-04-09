@@ -26,6 +26,13 @@ public class Rearrange_array {
         
     }
 
+	public static void main(String[] args) {
+		long arr[]={1,2,3,4,5};
+		// rearrange(arr[], 5);
+		// //rearrange(null, 5);	
+		// System.out.print(rearrange(null, 0));
+		rearrange(arr, 5);
+	}
     
     
     }
