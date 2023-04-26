@@ -7,6 +7,7 @@ public class CyclicArray {
         arra[i]=arra[i-1];
         
     }
+      
     arra[0]=x;
   System.out.println(Arrays.toString(arra));
     
